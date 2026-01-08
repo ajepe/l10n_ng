@@ -1,42 +1,8 @@
 name: Odoo Test
-'on':
+"on":
   push:
     branches:
       - main
   pull_request:
     branches:
       - main
-jobs:
-  Build:
-    runs-on: '${{ matrix.os }}'
-    strategy:
-      matrix:
-        os:
-          - ubuntu-18.04
-        python-version:
-          - '3.6'
-    steps:
-      - name: Install dependencies (Ubuntu)
-        if: runner.os == 'Linux'
-        run: |-
-          sudo apt-get update
-          sudo apt-get install -y expect-dev
-      - name: 'Set up Python ${{ matrix.python-version }}'
-        uses: actions/setup-python@v2
-        with:
-          python-version: '${{ matrix.python-version }}'
-      - name: Cache multiple paths
-        uses: actions/cache@v2
-        with:
-          path: |-
-            $HOME/.cache/pip
-            $HOME/.cache/pre-commit
-          key: '${{ runner.os }}-${{ hashFiles(''TODO'') }}'
-      - uses: actions/checkout@v2
-      - run: >-
-          git clone --depth=1
-          https://github.com/OCA/maintainer-quality-tools.git
-          ${HOME}/maintainer-quality-tools
-      - run: echo "${HOME}/maintainer-quality-tools/travis:${PATH}" >> $GITHUB_PATH
-      - run: travis_install_nightly
-#       - run: travis_run_tests

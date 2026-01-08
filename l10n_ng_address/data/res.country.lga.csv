@@ -1,0 +1,774 @@
+id,name,state_id:id
+lga_ab_aba_north,"Aba North",l10n_ng_address.state_abia
+lga_ab_aba_south,"Aba South",l10n_ng_address.state_abia
+lga_ab_arochukwu,Arochukwu,l10n_ng_address.state_abia
+lga_ab_bende,Bende,l10n_ng_address.state_abia
+lga_ab_ikwuano,Ikwuano,l10n_ng_address.state_abia
+lga_ab_isiala_ngwa_north,"Isiala Ngwa North",l10n_ng_address.state_abia
+lga_ab_isiala_ngwa_south,"Isiala Ngwa South",l10n_ng_address.state_abia
+lga_ab_isuikwuato,Isuikwuato,l10n_ng_address.state_abia
+lga_ab_obi_ngwa,"Obi Ngwa",l10n_ng_address.state_abia
+lga_ab_ohafia,Ohafia,l10n_ng_address.state_abia
+lga_ab_osisioma_ngwa,"Osisioma Ngwa",l10n_ng_address.state_abia
+lga_ab_ugwunagbo,Ugwunagbo,l10n_ng_address.state_abia
+lga_ab_ukwa_east,"Ukwa East",l10n_ng_address.state_abia
+lga_ab_ukwa_west,"Ukwa West",l10n_ng_address.state_abia
+lga_ab_umuahia_north,"Umuahia North",l10n_ng_address.state_abia
+lga_ab_umuahia_south,"Umuahia South",l10n_ng_address.state_abia
+lga_ab_umu_nneochi,"Umu Nneochi",l10n_ng_address.state_abia
+lga_ad_demsa,Demsa,l10n_ng_address.state_adamawa
+lga_ad_fufore,Fufore,l10n_ng_address.state_adamawa
+lga_ad_ganye,Ganye,l10n_ng_address.state_adamawa
+lga_ad_girei,Girei,l10n_ng_address.state_adamawa
+lga_ad_gombi,Gombi,l10n_ng_address.state_adamawa
+lga_ad_guyuk,Guyuk,l10n_ng_address.state_adamawa
+lga_ad_hong,Hong,l10n_ng_address.state_adamawa
+lga_ad_jada,Jada,l10n_ng_address.state_adamawa
+lga_ad_lamurde,Lamurde,l10n_ng_address.state_adamawa
+lga_ad_madagali,Madagali,l10n_ng_address.state_adamawa
+lga_ad_maiha,Maiha,l10n_ng_address.state_adamawa
+lga_ad_mayo_belwa,"Mayo-Belwa",l10n_ng_address.state_adamawa
+lga_ad_michika,Michika,l10n_ng_address.state_adamawa
+lga_ad_mubi_north,"Mubi North",l10n_ng_address.state_adamawa
+lga_ad_mubi_south,"Mubi South",l10n_ng_address.state_adamawa
+lga_ad_numan,Numan,l10n_ng_address.state_adamawa
+lga_ad_shelleng,Shelleng,l10n_ng_address.state_adamawa
+lga_ad_song,Song,l10n_ng_address.state_adamawa
+lga_ad_toungo,Toungo,l10n_ng_address.state_adamawa
+lga_ad_yola_north,"Yola North",l10n_ng_address.state_adamawa
+lga_ad_yola_south,"Yola South",l10n_ng_address.state_adamawa
+lga_ak_abak,Abak,l10n_ng_address.state_akwa_ibom
+lga_ak_eastern_obolo,"Eastern Obolo",l10n_ng_address.state_akwa_ibom
+lga_ak_eket,Eket,l10n_ng_address.state_akwa_ibom
+lga_ak_esit_eket,"Esit-Eket",l10n_ng_address.state_akwa_ibom
+lga_ak_essien_udim,"Essien Udim",l10n_ng_address.state_akwa_ibom
+lga_ak_etim_ekpo,"Etim-Ekpo",l10n_ng_address.state_akwa_ibom
+lga_ak_etinan,Etinan,l10n_ng_address.state_akwa_ibom
+lga_ak_ibeno,Ibeno,l10n_ng_address.state_akwa_ibom
+lga_ak_ibesikpo_asutan,"Ibesikpo-Asutan",l10n_ng_address.state_akwa_ibom
+lga_ak_ibiono_ibom,"Ibiono-Ibom",l10n_ng_address.state_akwa_ibom
+lga_ak_ika,Ika,l10n_ng_address.state_akwa_ibom
+lga_ak_ikono,Ikono,l10n_ng_address.state_akwa_ibom
+lga_ak_ikot_abasi,"Ikot Abasi",l10n_ng_address.state_akwa_ibom
+lga_ak_ikot_ekpene,"Ikot Ekpene",l10n_ng_address.state_akwa_ibom
+lga_ak_ini,Ini,l10n_ng_address.state_akwa_ibom
+lga_ak_itu,Itu,l10n_ng_address.state_akwa_ibom
+lga_ak_mbo,Mbo,l10n_ng_address.state_akwa_ibom
+lga_ak_mkpat_enin,"Mkpat-Enin",l10n_ng_address.state_akwa_ibom
+lga_ak_nsit_atai,"Nsit-Atai",l10n_ng_address.state_akwa_ibom
+lga_ak_nsit_ibom,"Nsit-Ibom",l10n_ng_address.state_akwa_ibom
+lga_ak_nsit_ubium,"Nsit-Ubium",l10n_ng_address.state_akwa_ibom
+lga_ak_obot_akara,"Obot-Akara",l10n_ng_address.state_akwa_ibom
+lga_ak_okobo,Okobo,l10n_ng_address.state_akwa_ibom
+lga_ak_onna,Onna,l10n_ng_address.state_akwa_ibom
+lga_ak_oron,Oron,l10n_ng_address.state_akwa_ibom
+lga_ak_oruk_anam,"Oruk Anam",l10n_ng_address.state_akwa_ibom
+lga_ak_ukanafun,Ukanafun,l10n_ng_address.state_akwa_ibom
+lga_ak_udung_uko,"Udung-Uko",l10n_ng_address.state_akwa_ibom
+lga_ak_uruan,Uruan,l10n_ng_address.state_akwa_ibom
+lga_ak_urue_offong_oruko,"Urue-Offong/Oruko",l10n_ng_address.state_akwa_ibom
+lga_ak_uyo,Uyo,l10n_ng_address.state_akwa_ibom
+lga_an_aguata,Aguata,l10n_ng_address.state_anambra
+lga_an_anambra_east,"Anambra East",l10n_ng_address.state_anambra
+lga_an_anambra_west,"Anambra West",l10n_ng_address.state_anambra
+lga_an_anaocha,Anaocha,l10n_ng_address.state_anambra
+lga_an_awka_north,"Awka North",l10n_ng_address.state_anambra
+lga_an_awka_south,"Awka South",l10n_ng_address.state_anambra
+lga_an_ayamelum,Ayamelum,l10n_ng_address.state_anambra
+lga_an_dunukofia,Dunukofia,l10n_ng_address.state_anambra
+lga_an_ekwusigo,Ekwusigo,l10n_ng_address.state_anambra
+lga_an_idemili_north,"Idemili North",l10n_ng_address.state_anambra
+lga_an_idemili_south,"Idemili South",l10n_ng_address.state_anambra
+lga_an_ihiala,Ihiala,l10n_ng_address.state_anambra
+lga_an_njikoka,Njikoka,l10n_ng_address.state_anambra
+lga_an_nnewi_north,"Nnewi North",l10n_ng_address.state_anambra
+lga_an_nnewi_south,"Nnewi South",l10n_ng_address.state_anambra
+lga_an_ogbaru,Ogbaru,l10n_ng_address.state_anambra
+lga_an_onitsha_north,"Onitsha North",l10n_ng_address.state_anambra
+lga_an_onitsha_south,"Onitsha South",l10n_ng_address.state_anambra
+lga_an_orumba_north,"Orumba North",l10n_ng_address.state_anambra
+lga_an_orumba_south,"Orumba South",l10n_ng_address.state_anambra
+lga_an_oyi,Oyi,l10n_ng_address.state_anambra
+lga_ba_alkaleri,Alkaleri,l10n_ng_address.state_bauchi
+lga_ba_bauchi,Bauchi,l10n_ng_address.state_bauchi
+lga_ba_bogoro,Bogoro,l10n_ng_address.state_bauchi
+lga_ba_damban,Damban,l10n_ng_address.state_bauchi
+lga_ba_darazo,Darazo,l10n_ng_address.state_bauchi
+lga_ba_dass,Dass,l10n_ng_address.state_bauchi
+lga_ba_gamawa,Gamawa,l10n_ng_address.state_bauchi
+lga_ba_ganjuwa,Ganjuwa,l10n_ng_address.state_bauchi
+lga_ba_giade,Giade,l10n_ng_address.state_bauchi
+lga_ba_itas_gadau,"Itas/Gadau",l10n_ng_address.state_bauchi
+lga_ba_jamaare,"Jama'are",l10n_ng_address.state_bauchi
+lga_ba_katagum,Katagum,l10n_ng_address.state_bauchi
+lga_ba_kirfi,Kirfi,l10n_ng_address.state_bauchi
+lga_ba_misau,Misau,l10n_ng_address.state_bauchi
+lga_ba_ningi,Ningi,l10n_ng_address.state_bauchi
+lga_ba_shira,Shira,l10n_ng_address.state_bauchi
+lga_ba_tafawa_balewa,"Tafawa Balewa",l10n_ng_address.state_bauchi
+lga_ba_toro,Toro,l10n_ng_address.state_bauchi
+lga_ba_warji,Warji,l10n_ng_address.state_bauchi
+lga_ba_zaki,Zaki,l10n_ng_address.state_bauchi
+lga_by_brass,Brass,l10n_ng_address.state_bayelsa
+lga_by_ekeremor,Ekeremor,l10n_ng_address.state_bayelsa
+lga_by_kolokuma_opokuma,"Kolokuma/Opokuma",l10n_ng_address.state_bayelsa
+lga_by_nembe,Nembe,l10n_ng_address.state_bayelsa
+lga_by_ogbia,Ogbia,l10n_ng_address.state_bayelsa
+lga_by_sagbama,Sagbama,l10n_ng_address.state_bayelsa
+lga_by_southern_ijaw,"Southern Ijaw",l10n_ng_address.state_bayelsa
+lga_by_yenagoa,Yenagoa,l10n_ng_address.state_bayelsa
+lga_be_ado,Ado,l10n_ng_address.state_benue
+lga_be_agatu,Agatu,l10n_ng_address.state_benue
+lga_be_apa,Apa,l10n_ng_address.state_benue
+lga_be_buruku,Buruku,l10n_ng_address.state_benue
+lga_be_gboko,Gboko,l10n_ng_address.state_benue
+lga_be_guma,Guma,l10n_ng_address.state_benue
+lga_be_gwer_east,"Gwer East",l10n_ng_address.state_benue
+lga_be_gwer_west,"Gwer West",l10n_ng_address.state_benue
+lga_be_katsina_ala,"Katsina-Ala",l10n_ng_address.state_benue
+lga_be_konshisha,Konshisha,l10n_ng_address.state_benue
+lga_be_kwande,Kwande,l10n_ng_address.state_benue
+lga_be_logo,Logo,l10n_ng_address.state_benue
+lga_be_makurdi,Makurdi,l10n_ng_address.state_benue
+lga_be_obi,Obi,l10n_ng_address.state_benue
+lga_be_ogbadibo,Ogbadibo,l10n_ng_address.state_benue
+lga_be_ohimini,Ohimini,l10n_ng_address.state_benue
+lga_be_oju,Oju,l10n_ng_address.state_benue
+lga_be_okpokwu,Okpokwu,l10n_ng_address.state_benue
+lga_be_oturkpo,Oturkpo,l10n_ng_address.state_benue
+lga_be_tarka,Tarka,l10n_ng_address.state_benue
+lga_be_ukpo,"Ukum",l10n_ng_address.state_benue
+lga_be_ushongo,Ushongo,l10n_ng_address.state_benue
+lga_be_vandekya,Vandeikya,l10n_ng_address.state_benue
+lga_bo_abadam,Abadam,l10n_ng_address.state_borno
+lga_bo_askira_uba,"Askira/Uba",l10n_ng_address.state_borno
+lga_bo_bama,Bama,l10n_ng_address.state_borno
+lga_bo_bayo,Bayo,l10n_ng_address.state_borno
+lga_bo_biu,Biu,l10n_ng_address.state_borno
+lga_bo_chibok,Chibok,l10n_ng_address.state_borno
+lga_bo_damboa,Damboa,l10n_ng_address.state_borno
+lga_bo_dikwa,Dikwa,l10n_ng_address.state_borno
+lga_bo_gubio,Gubio,l10n_ng_address.state_borno
+lga_bo_guzamala,Guzamala,l10n_ng_address.state_borno
+lga_bo_gwoza,Gwoza,l10n_ng_address.state_borno
+lga_bo_hawul,Hawul,l10n_ng_address.state_borno
+lga_bo_jere,Jere,l10n_ng_address.state_borno
+lga_bo_kaga,Kaga,l10n_ng_address.state_borno
+lga_bo_kalka_balge,"Kala/Balge",l10n_ng_address.state_borno
+lga_bo_konduga,Konduga,l10n_ng_address.state_borno
+lga_bo_kukawa,Kukawa,l10n_ng_address.state_borno
+lga_bo_kwaya_kusar,"Kwaya Kusar",l10n_ng_address.state_borno
+lga_bo_mafa,Mafa,l10n_ng_address.state_borno
+lga_bo_magumeri,Magumeri,l10n_ng_address.state_borno
+lga_bo_maiduguri,Maiduguri,l10n_ng_address.state_borno
+lga_bo_marte,Marte,l10n_ng_address.state_borno
+lga_bo_mobbar,Mobbar,l10n_ng_address.state_borno
+lga_bo_monguno,Monguno,l10n_ng_address.state_borno
+lga_bo_ngala,Ngala,l10n_ng_address.state_borno
+lga_bo_nganzai,Nganzai,l10n_ng_address.state_borno
+lga_bo_shani,Shani,l10n_ng_address.state_borno
+lga_cr_abi,Abi,l10n_ng_address.state_cross_river
+lga_cr_akamkpa,Akamkpa,l10n_ng_address.state_cross_river
+lga_cr_akpabuyo,Akpabuyo,l10n_ng_address.state_cross_river
+lga_cr_bakassi,Bakassi,l10n_ng_address.state_cross_river
+lga_cr_bekwarra,Bekwarra,l10n_ng_address.state_cross_river
+lga_cr_biase,Biase,l10n_ng_address.state_cross_river
+lga_cr_boki,Boki,l10n_ng_address.state_cross_river
+lga_cr_calabar_municipal,"Calabar Municipal",l10n_ng_address.state_cross_river
+lga_cr_calabar_south,"Calabar South",l10n_ng_address.state_cross_river
+lga_cr_etung,Etung,l10n_ng_address.state_cross_river
+lga_cr_ikom,Ikom,l10n_ng_address.state_cross_river
+lga_cr_obanliku,Obanliku,l10n_ng_address.state_cross_river
+lga_cr_obubra,Obubra,l10n_ng_address.state_cross_river
+lga_cr_obudu,Obudu,l10n_ng_address.state_cross_river
+lga_cr_odukpani,Odukpani,l10n_ng_address.state_cross_river
+lga_cr_ogoja,Ogoja,l10n_ng_address.state_cross_river
+lga_cr_yakurr,Yakurr,l10n_ng_address.state_cross_river
+lga_cr_yala,Yala,l10n_ng_address.state_cross_river
+lga_de_aniocha_north,"Aniocha North",l10n_ng_address.state_delta
+lga_de_aniocha_south,"Aniocha South",l10n_ng_address.state_delta
+lga_de_bomadi,Bomadi,l10n_ng_address.state_delta
+lga_de_burutu,Burutu,l10n_ng_address.state_delta
+lga_de_ethiope_east,"Ethiope East",l10n_ng_address.state_delta
+lga_de_ethiope_west,"Ethiope West",l10n_ng_address.state_delta
+lga_de_ika_north_east,"Ika North East",l10n_ng_address.state_delta
+lga_de_ika_south,"Ika South",l10n_ng_address.state_delta
+lga_de_isoko_north,"Isoko North",l10n_ng_address.state_delta
+lga_de_isoko_south,"Isoko South",l10n_ng_address.state_delta
+lga_de_ndokwa_east,"Ndokwa East",l10n_ng_address.state_delta
+lga_de_ndokwa_west,"Ndokwa West",l10n_ng_address.state_delta
+lga_de_okpe,Okpe,l10n_ng_address.state_delta
+lga_de_oshimili_north,"Oshimili North",l10n_ng_address.state_delta
+lga_de_oshimili_south,"Oshimili South",l10n_ng_address.state_delta
+lga_de_patani,Patani,l10n_ng_address.state_delta
+lga_de_sapele,Sapele,l10n_ng_address.state_delta
+lga_de_udugie,Udu,l10n_ng_address.state_delta
+lga_de_ughelli_north,"Ughelli North",l10n_ng_address.state_delta
+lga_de_ughelli_south,"Ughelli South",l10n_ng_address.state_delta
+lga_de_ukwuani,Ukwuani,l10n_ng_address.state_delta
+lga_de_uvwie,Uvwie,l10n_ng_address.state_delta
+lga_de_warri_north,"Warri North",l10n_ng_address.state_delta
+lga_de_warri_south,"Warri South",l10n_ng_address.state_delta
+lga_de_warri_south_west,"Warri South West",l10n_ng_address.state_delta
+lga_eb_abakaliki,Abakaliki,l10n_ng_address.state_ebonyi
+lga_eb_afikpo_north,"Afikpo North",l10n_ng_address.state_ebonyi
+lga_eb_afikpo_south,"Afikpo South (Edda)",l10n_ng_address.state_ebonyi
+lga_eb_ebonyi,Ebonyi,l10n_ng_address.state_ebonyi
+lga_eb_ezza_north,"Ezza North",l10n_ng_address.state_ebonyi
+lga_eb_ezza_south,"Ezza South",l10n_ng_address.state_ebonyi
+lga_eb_ikwo,Ikwo,l10n_ng_address.state_ebonyi
+lga_eb_ishielu,Ishielu,l10n_ng_address.state_ebonyi
+lga_eb_ivo,Ivo,l10n_ng_address.state_ebonyi
+lga_eb_izzi,Izzi,l10n_ng_address.state_ebonyi
+lga_eb_ohaozara,Ohaozara,l10n_ng_address.state_ebonyi
+lga_eb_ohaukwu,Ohaukwu,l10n_ng_address.state_ebonyi
+lga_eb_onicha,Onicha,l10n_ng_address.state_ebonyi
+lga_ed_akoko_edo,"Akoko-Edo",l10n_ng_address.state_edo
+lga_ed_egor,Egor,l10n_ng_address.state_edo
+lga_ed_esan_central,"Esan Central",l10n_ng_address.state_edo
+lga_ed_esan_north_east,"Esan North-East",l10n_ng_address.state_edo
+lga_ed_esan_south_east,"Esan South-East",l10n_ng_address.state_edo
+lga_ed_esan_west,"Esan West",l10n_ng_address.state_edo
+lga_ed_etsako_central,"Etsako Central",l10n_ng_address.state_edo
+lga_ed_etsako_east,"Etsako East",l10n_ng_address.state_edo
+lga_ed_etsako_west,"Etsako West",l10n_ng_address.state_edo
+lga_ed_igueben,Igueben,l10n_ng_address.state_edo
+lga_ed_ikpoba_okha,"Ikpoba-Okha",l10n_ng_address.state_edo
+lga_ed_oredo,Oredo,l10n_ng_address.state_edo
+lga_ed_orhionmwon,Orhionmwon,l10n_ng_address.state_edo
+lga_ed_ovia_north_east,"Ovia North-East",l10n_ng_address.state_edo
+lga_ed_ovia_south_west,"Ovia South-West",l10n_ng_address.state_edo
+lga_ed_owan_east,"Owan East",l10n_ng_address.state_edo
+lga_ed_owan_west,"Owan West",l10n_ng_address.state_edo
+lga_ed_uhunmwonde,Uhunmwonde,l10n_ng_address.state_edo
+lga_ek_ado_ekiti,"Ado Ekiti",l10n_ng_address.state_ekiti
+lga_ek_efon,Efon,l10n_ng_address.state_ekiti
+lga_ek_ekiti_east,"Ekiti East",l10n_ng_address.state_ekiti
+lga_ek_ekiti_south_west,"Ekiti South-West",l10n_ng_address.state_ekiti
+lga_ek_ekiti_west,"Ekiti West",l10n_ng_address.state_ekiti
+lga_ek_emure,Emure,l10n_ng_address.state_ekiti
+lga_ek_gbonyin,Gbonyin,l10n_ng_address.state_ekiti
+lga_ek_ido_osi,"Ido Osi",l10n_ng_address.state_ekiti
+lga_ek_ijero,Ijero,l10n_ng_address.state_ekiti
+lga_ek_ikere,Ikere,l10n_ng_address.state_ekiti
+lga_ek_ikole,Ikole,l10n_ng_address.state_ekiti
+lga_ek_ilejemeje,Ilejemeje,l10n_ng_address.state_ekiti
+lga_ek_irepodun_ifelodun,"Irepodun/Ifelodun",l10n_ng_address.state_ekiti
+lga_ek_ise_orun,"Ise/Orun",l10n_ng_address.state_ekiti
+lga_ek_moba,Moba,l10n_ng_address.state_ekiti
+lga_ek_oye,Oye,l10n_ng_address.state_ekiti
+lga_en_aninri,Aninri,l10n_ng_address.state_enugu
+lga_en_awgu,Awgu,l10n_ng_address.state_enugu
+lga_en_enugu_east,"Enugu East",l10n_ng_address.state_enugu
+lga_en_enugu_north,"Enugu North",l10n_ng_address.state_enugu
+lga_en_enugu_south,"Enugu South",l10n_ng_address.state_enugu
+lga_en_ezeagu,Ezeagu,l10n_ng_address.state_enugu
+lga_en_igbo_etiti,"Igbo Etiti",l10n_ng_address.state_enugu
+lga_en_igbo_eze_north,"Igbo Eze North",l10n_ng_address.state_enugu
+lga_en_igbo_eze_south,"Igbo Eze South",l10n_ng_address.state_enugu
+lga_en_isi_uzo,"Isi Uzo",l10n_ng_address.state_enugu
+lga_en_nkanu_east,"Nkanu East",l10n_ng_address.state_enugu
+lga_en_nkanu_west,"Nkanu West",l10n_ng_address.state_enugu
+lga_en_nsukka,Nsukka,l10n_ng_address.state_enugu
+lga_en_oji_river,"Oji River",l10n_ng_address.state_enugu
+lga_en_udenu,Udenu,l10n_ng_address.state_enugu
+lga_en_udi,Udi,l10n_ng_address.state_enugu
+lga_en_uzo_uwani,"Uzo-Uwani",l10n_ng_address.state_enugu
+lga_fc_abaji,Abaji,l10n_ng_address.state_fct
+lga_fc_abuja_municipal,"Abuja Municipal Area Council",l10n_ng_address.state_fct
+lga_fc_bwari,Bwari,l10n_ng_address.state_fct
+lga_fc_gwagwalada,Gwagwalada,l10n_ng_address.state_fct
+lga_fc_kuje,Kuje,l10n_ng_address.state_fct
+lga_fc_kwali,Kwali,l10n_ng_address.state_fct
+lga_go_akko,Akko,l10n_ng_address.state_gombe
+lga_go_balanga,Balanga,l10n_ng_address.state_gombe
+lga_go_billiri,Billiri,l10n_ng_address.state_gombe
+lga_go_dukku,Dukku,l10n_ng_address.state_gombe
+lga_go_funakaye,Funakaye,l10n_ng_address.state_gombe
+lga_go_gombe,Gombe,l10n_ng_address.state_gombe
+lga_go_kaltungo,Kaltungo,l10n_ng_address.state_gombe
+lga_go_kwami,Kwami,l10n_ng_address.state_gombe
+lga_go_nafade,Nafada,l10n_ng_address.state_gombe
+lga_go_shongom,Shongom,l10n_ng_address.state_gombe
+lga_go_yamaltu_deba,"Yamaltu/Deba",l10n_ng_address.state_gombe
+lga_im_abo_mbaise,"Aboh Mbaise",l10n_ng_address.state_imo
+lga_im_ahiazu_mbaise,"Ahiazu Mbaise",l10n_ng_address.state_imo
+lga_im_ehime_mbano,"Ehime Mbano",l10n_ng_address.state_imo
+lga_im_ezinihitte,Ezinihitte,l10n_ng_address.state_imo
+lga_im_ideato_north,"Ideato North",l10n_ng_address.state_imo
+lga_im_ideato_south,"Ideato South",l10n_ng_address.state_imo
+lga_im_ihitte_uboma,"Ihitte/Uboma",l10n_ng_address.state_imo
+lga_im_ikeduru,Ikeduru,l10n_ng_address.state_imo
+lga_im_isiala_mbano,"Isiala Mbano",l10n_ng_address.state_imo
+lga_im_isu,Isu,l10n_ng_address.state_imo
+lga_im_mbaitoli,Mbaitoli,l10n_ng_address.state_imo
+lga_im_ngor_okpala,"Ngor Okpala",l10n_ng_address.state_imo
+lga_im_njaba,Njaba,l10n_ng_address.state_imo
+lga_im_nkwerre,Nkwerre,l10n_ng_address.state_imo
+lga_im_nwangele,Nwangele,l10n_ng_address.state_imo
+lga_im_obowo,Obowo,l10n_ng_address.state_imo
+lga_im_oguta,Oguta,l10n_ng_address.state_imo
+lga_im_ohaji_egbema,"Ohaji/Egbema",l10n_ng_address.state_imo
+lga_im_okigwe,Okigwe,l10n_ng_address.state_imo
+lga_im_orlu,Orlu,l10n_ng_address.state_imo
+lga_im_orsu,Orsu,l10n_ng_address.state_imo
+lga_im_oru_east,"Oru East",l10n_ng_address.state_imo
+lga_im_oru_west,"Oru West",l10n_ng_address.state_imo
+lga_im_owerri_municipal,"Owerri Municipal",l10n_ng_address.state_imo
+lga_im_owerri_north,"Owerri North",l10n_ng_address.state_imo
+lga_im_owerri_west,"Owerri West",l10n_ng_address.state_imo
+lga_im_unuimo,Unuimo,l10n_ng_address.state_imo
+lga_ji_auyo,Auyo,l10n_ng_address.state_jigawa
+lga_ji_babura,Babura,l10n_ng_address.state_jigawa
+lga_ji_biriniwa,Biriniwa,l10n_ng_address.state_jigawa
+lga_ji_birnin_kudu,"Birnin Kudu",l10n_ng_address.state_jigawa
+lga_ji_buji,Buji,l10n_ng_address.state_jigawa
+lga_ji_dutse,Dutse,l10n_ng_address.state_jigawa
+lga_ji_gagarawa,Gagarawa,l10n_ng_address.state_jigawa
+lga_ji_garki,Garki,l10n_ng_address.state_jigawa
+lga_ji_gumel,Gumel,l10n_ng_address.state_jigawa
+lga_ji_guri,Guri,l10n_ng_address.state_jigawa
+lga_ji_gwaram,Gwaram,l10n_ng_address.state_jigawa
+lga_ji_gwiwa,Gwiwa,l10n_ng_address.state_jigawa
+lga_ji_hadejia,Hadejia,l10n_ng_address.state_jigawa
+lga_ji_jahun,Jahun,l10n_ng_address.state_jigawa
+lga_ji_kafin_hausa,"Kafin Hausa",l10n_ng_address.state_jigawa
+lga_ji_kaugama,Kaugama,l10n_ng_address.state_jigawa
+lga_ji_kazaure,Kazaure,l10n_ng_address.state_jigawa
+lga_ji_kiri_kasama,"Kiri Kasama",l10n_ng_address.state_jigawa
+lga_ji_kiyawa,Kiyawa,l10n_ng_address.state_jigawa
+lga_ji_maigatari,Maigatari,l10n_ng_address.state_jigawa
+lga_ji_malam_madori,"Malam Madori",l10n_ng_address.state_jigawa
+lga_ji_miga,Miga,l10n_ng_address.state_jigawa
+lga_ji_ringim,Ringim,l10n_ng_address.state_jigawa
+lga_ji_roni,Roni,l10n_ng_address.state_jigawa
+lga_ji_sule_tankarkar,"Sule Tankarkar",l10n_ng_address.state_jigawa
+lga_ji_taura,Taura,l10n_ng_address.state_jigawa
+lga_ji_yankwashi,Yankwashi,l10n_ng_address.state_jigawa
+lga_kd_birnin_gwari,"Birnin Gwari",l10n_ng_address.state_kaduna
+lga_kd_chikun,Chikun,l10n_ng_address.state_kaduna
+lga_kd_giwa,Giwa,l10n_ng_address.state_kaduna
+lga_kd_igabi,Igabi,l10n_ng_address.state_kaduna
+lga_kd_ikara,Ikara,l10n_ng_address.state_kaduna
+lga_kd_jaba,Jaba,l10n_ng_address.state_kaduna
+lga_kd_jemaa,"Jema'a",l10n_ng_address.state_kaduna
+lga_kd_kachia,Kachia,l10n_ng_address.state_kaduna
+lga_kd_kaduna_north,"Kaduna North",l10n_ng_address.state_kaduna
+lga_kd_kaduna_south,"Kaduna South",l10n_ng_address.state_kaduna
+lga_kd_kagarako,Kagarko,l10n_ng_address.state_kaduna
+lga_kd_kajuru,Kajuru,l10n_ng_address.state_kaduna
+lga_kd_kaura,Kaura,l10n_ng_address.state_kaduna
+lga_kd_kauru,Kauru,l10n_ng_address.state_kaduna
+lga_kd_kubau,Kubau,l10n_ng_address.state_kaduna
+lga_kd_kudan,Kudan,l10n_ng_address.state_kaduna
+lga_kd_lere,Lere,l10n_ng_address.state_kaduna
+lga_kd_makarfi,Makarfi,l10n_ng_address.state_kaduna
+lga_kd_sabon_gari,"Sabon Gari",l10n_ng_address.state_kaduna
+lga_kd_sanga,Sanga,l10n_ng_address.state_kaduna
+lga_kd_soba,Soba,l10n_ng_address.state_kaduna
+lga_kd_zangon_kataf,"Zangon Kataf",l10n_ng_address.state_kaduna
+lga_kd_zaria,Zaria,l10n_ng_address.state_kaduna
+lga_kn_ajingi,Ajingi,l10n_ng_address.state_kano
+lga_kn_albasu,Albasu,l10n_ng_address.state_kano
+lga_kn_bagwai,Bagwai,l10n_ng_address.state_kano
+lga_kn_bebeji,Bebeji,l10n_ng_address.state_kano
+lga_kn_bichi,Bichi,l10n_ng_address.state_kano
+lga_kn_bunkure,Bunkure,l10n_ng_address.state_kano
+lga_kn_dala,Dala,l10n_ng_address.state_kano
+lga_kn_dambatta,Dambatta,l10n_ng_address.state_kano
+lga_kn_dawakin_kudu,"Dawakin Kudu",l10n_ng_address.state_kano
+lga_kn_dawakin_tofa,"Dawakin Tofa",l10n_ng_address.state_kano
+lga_kn_doguwa,Doguwa,l10n_ng_address.state_kano
+lga_kn_fagge,Fagge,l10n_ng_address.state_kano
+lga_kn_gabasawa,Gabasawa,l10n_ng_address.state_kano
+lga_kn_garko,Garko,l10n_ng_address.state_kano
+lga_kn_garun_mallam,"Garun Mallam",l10n_ng_address.state_kano
+lga_kn_gaya,Gaya,l10n_ng_address.state_kano
+lga_kn_gezawa,Gezawa,l10n_ng_address.state_kano
+lga_kn_gwale,Gwale,l10n_ng_address.state_kano
+lga_kn_gwarzo,Gwarzo,l10n_ng_address.state_kano
+lga_kn_kabo,Kabo,l10n_ng_address.state_kano
+lga_kn_kano_municipal,"Kano Municipal",l10n_ng_address.state_kano
+lga_kn_karaye,Karaye,l10n_ng_address.state_kano
+lga_kn_kibiya,Kibiya,l10n_ng_address.state_kano
+lga_kn_kiru,Kiru,l10n_ng_address.state_kano
+lga_kn_kumbotso,Kumbotso,l10n_ng_address.state_kano
+lga_kn_kunchi,Kunchi,l10n_ng_address.state_kano
+lga_kn_kura,Kura,l10n_ng_address.state_kano
+lga_kn_madobi,Madobi,l10n_ng_address.state_kano
+lga_kn_makoda,Makoda,l10n_ng_address.state_kano
+lga_kn_minjibir,Minjibir,l10n_ng_address.state_kano
+lga_kn_nasarawa,Nasarawa,l10n_ng_address.state_kano
+lga_kn_rano,Rano,l10n_ng_address.state_kano
+lga_kn_rimin_gado,"Rimin Gado",l10n_ng_address.state_kano
+lga_kn_rogo,Rogo,l10n_ng_address.state_kano
+lga_kn_shanono,Shanono,l10n_ng_address.state_kano
+lga_kn_sumaila,Sumaila,l10n_ng_address.state_kano
+lga_kn_takai,Takai,l10n_ng_address.state_kano
+lga_kn_tarauni,Tarauni,l10n_ng_address.state_kano
+lga_kn_tofa,Tofa,l10n_ng_address.state_kano
+lga_kn_tsanyawa,Tsanyawa,l10n_ng_address.state_kano
+lga_kn_tudun_wada,"Tudun Wada",l10n_ng_address.state_kano
+lga_kn_ungogo,Ungogo,l10n_ng_address.state_kano
+lga_kn_warawa,Warawa,l10n_ng_address.state_kano
+lga_kn_wudil,Wudil,l10n_ng_address.state_kano
+lga_kt_bakori,Bakori,l10n_ng_address.state_katsina
+lga_kt_batagarawa,Batagarawa,l10n_ng_address.state_katsina
+lga_kt_batsari,Batsari,l10n_ng_address.state_katsina
+lga_kt_baure,Baure,l10n_ng_address.state_katsina
+lga_kt_bindawa,Bindawa,l10n_ng_address.state_katsina
+lga_kt_charanchi,Charanchi,l10n_ng_address.state_katsina
+lga_kt_dandume,Dandume,l10n_ng_address.state_katsina
+lga_kt_danja,Danja,l10n_ng_address.state_katsina
+lga_kt_dan_musa,"Dan Musa",l10n_ng_address.state_katsina
+lga_kt_daura,Daura,l10n_ng_address.state_katsina
+lga_kt_dutsi,Dutsi,l10n_ng_address.state_katsina
+lga_kt_dutsin_ma,"Dutsin-Ma",l10n_ng_address.state_katsina
+lga_kt_faskari,Faskari,l10n_ng_address.state_katsina
+lga_kt_funtua,Funtua,l10n_ng_address.state_katsina
+lga_kt_ingawa,Ingawa,l10n_ng_address.state_katsina
+lga_kt_jibia,Jibia,l10n_ng_address.state_katsina
+lga_kt_kafin_soli,"Kafur",l10n_ng_address.state_katsina
+lga_kt_kaita,Kaita,l10n_ng_address.state_katsina
+lga_kt_kankara,Kankara,l10n_ng_address.state_katsina
+lga_kt_kankia,Kankia,l10n_ng_address.state_katsina
+lga_kt_katsina,Katsina,l10n_ng_address.state_katsina
+lga_kt_kurfi,Kurfi,l10n_ng_address.state_katsina
+lga_kt_kusada,Kusada,l10n_ng_address.state_katsina
+lga_kt_maiadua,"Mai'Adua",l10n_ng_address.state_katsina
+lga_kt_malumfashi,Malumfashi,l10n_ng_address.state_katsina
+lga_kt_mani,Mani,l10n_ng_address.state_katsina
+lga_kt_mashi,Mashi,l10n_ng_address.state_katsina
+lga_kt_matazu,Matazu,l10n_ng_address.state_katsina
+lga_kt_musawa,Musawa,l10n_ng_address.state_katsina
+lga_kt_rimi,Rimi,l10n_ng_address.state_katsina
+lga_kt_sabuwa,Sabuwa,l10n_ng_address.state_katsina
+lga_kt_safana,Safana,l10n_ng_address.state_katsina
+lga_kt_sandamu,Sandamu,l10n_ng_address.state_katsina
+lga_kt_zango,Zango,l10n_ng_address.state_katsina
+lga_ke_aleiro,Aleiro,l10n_ng_address.state_kebbi
+lga_ke_arewa_dandi,"Arewa Dandi",l10n_ng_address.state_kebbi
+lga_ke_argungu,Argungu,l10n_ng_address.state_kebbi
+lga_ke_augie,Augie,l10n_ng_address.state_kebbi
+lga_ke_bagudo,Bagudo,l10n_ng_address.state_kebbi
+lga_ke_birnin_kebbi,"Birnin Kebbi",l10n_ng_address.state_kebbi
+lga_ke_bunza,Bunza,l10n_ng_address.state_kebbi
+lga_ke_dandi,Dandi,l10n_ng_address.state_kebbi
+lga_ke_fakai,Fakai,l10n_ng_address.state_kebbi
+lga_ke_gwandu,Gwandu,l10n_ng_address.state_kebbi
+lga_ke_jega,Jega,l10n_ng_address.state_kebbi
+lga_ke_kalgo,Kalgo,l10n_ng_address.state_kebbi
+lga_ke_koko_besse,"Koko/Besse",l10n_ng_address.state_kebbi
+lga_ke_maiyama,Maiyama,l10n_ng_address.state_kebbi
+lga_ke_ngaski,Ngaski,l10n_ng_address.state_kebbi
+lga_ke_sakaba,Sakaba,l10n_ng_address.state_kebbi
+lga_ke_shanga,Shanga,l10n_ng_address.state_kebbi
+lga_ke_suru,Suru,l10n_ng_address.state_kebbi
+lga_ke_wasagu_danko,"Wasagu/Danko",l10n_ng_address.state_kebbi
+lga_ke_yauri,Yauri,l10n_ng_address.state_kebbi
+lga_ke_zuru,Zuru,l10n_ng_address.state_kebbi
+lga_ko_adavi,Adavi,l10n_ng_address.state_kogi
+lga_ko_ajaokuta,Ajaokuta,l10n_ng_address.state_kogi
+lga_ko_ankpa,Ankpa,l10n_ng_address.state_kogi
+lga_ko_bassa,Bassa,l10n_ng_address.state_kogi
+lga_ko_dekina,Dekina,l10n_ng_address.state_kogi
+lga_ko_ibaji,Ibaji,l10n_ng_address.state_kogi
+lga_ko_idah,Idah,l10n_ng_address.state_kogi
+lga_ko_igalamela_odolu,"Igalamela-Odolu",l10n_ng_address.state_kogi
+lga_ko_ijumu,Ijumu,l10n_ng_address.state_kogi
+lga_ko_kabba_bunu,"Kabba/Bunu",l10n_ng_address.state_kogi
+lga_ko_kogi,Kogi,l10n_ng_address.state_kogi
+lga_ko_lokoja,Lokoja,l10n_ng_address.state_kogi
+lga_ko_mopa_muro,"Mopa-Muro",l10n_ng_address.state_kogi
+lga_ko_ofu,Ofu,l10n_ng_address.state_kogi
+lga_ko_ogori_magongo,"Ogori/Magongo",l10n_ng_address.state_kogi
+lga_ko_okehi,Okehi,l10n_ng_address.state_kogi
+lga_ko_okene,Okene,l10n_ng_address.state_kogi
+lga_ko_olamaboro,Olamaboro,l10n_ng_address.state_kogi
+lga_ko_omala,Omala,l10n_ng_address.state_kogi
+lga_ko_yagba_east,"Yagba East",l10n_ng_address.state_kogi
+lga_ko_yagba_west,"Yagba West",l10n_ng_address.state_kogi
+lga_kw_asa,Asa,l10n_ng_address.state_kwara
+lga_kw_baruten,Baruten,l10n_ng_address.state_kwara
+lga_kw_edu,Edu,l10n_ng_address.state_kwara
+lga_kw_ekiti,Ekiti,l10n_ng_address.state_kwara
+lga_kw_ifelodun,Ifelodun,l10n_ng_address.state_kwara
+lga_kw_ilorin_east,"Ilorin East",l10n_ng_address.state_kwara
+lga_kw_ilorin_south,"Ilorin South",l10n_ng_address.state_kwara
+lga_kw_ilorin_west,"Ilorin West",l10n_ng_address.state_kwara
+lga_kw_irepodun,Irepodun,l10n_ng_address.state_kwara
+lga_kw_isin,Isin,l10n_ng_address.state_kwara
+lga_kw_kaiama,Kaiama,l10n_ng_address.state_kwara
+lga_kw_moro,Moro,l10n_ng_address.state_kwara
+lga_kw_offa,Offa,l10n_ng_address.state_kwara
+lga_kw_oke_ero,"Oke Ero",l10n_ng_address.state_kwara
+lga_kw_oyun,Oyun,l10n_ng_address.state_kwara
+lga_kw_pategi,Pategi,l10n_ng_address.state_kwara
+lga_la_agege,Agege,l10n_ng_address.state_lagos
+lga_la_ajeromi_ifelodun,"Ajeromi-Ifelodun",l10n_ng_address.state_lagos
+lga_la_alimosho,Alimosho,l10n_ng_address.state_lagos
+lga_la_amuwo_odofin,"Amuwo-Odofin",l10n_ng_address.state_lagos
+lga_la_apapa,Apapa,l10n_ng_address.state_lagos
+lga_la_badagry,Badagry,l10n_ng_address.state_lagos
+lga_la_epe,Epe,l10n_ng_address.state_lagos
+lga_la_eti_osa,"Eti-Osa",l10n_ng_address.state_lagos
+lga_la_ibeju_lekki,"Ibeju-Lekki",l10n_ng_address.state_lagos
+lga_la_ifako_ijaiye,"Ifako-Ijaiye",l10n_ng_address.state_lagos
+lga_la_ikeja,Ikeja,l10n_ng_address.state_lagos
+lga_la_ikorodu,Ikorodu,l10n_ng_address.state_lagos
+lga_la_kosofe,Kosofe,l10n_ng_address.state_lagos
+lga_la_lagos_island,"Lagos Island",l10n_ng_address.state_lagos
+lga_la_lagos_mainland,"Lagos Mainland",l10n_ng_address.state_lagos
+lga_la_mushin,Mushin,l10n_ng_address.state_lagos
+lga_la_ojo,Ojo,l10n_ng_address.state_lagos
+lga_la_oshodi_isolo,"Oshodi-Isolo",l10n_ng_address.state_lagos
+lga_la_shomolu,Somolu,l10n_ng_address.state_lagos
+lga_la_surulere,Surulere,l10n_ng_address.state_lagos
+lga_na_akwanga,Akwanga,l10n_ng_address.state_nasarawa
+lga_na_awe,Awe,l10n_ng_address.state_nasarawa
+lga_na_doma,Doma,l10n_ng_address.state_nasarawa
+lga_na_karu,Karu,l10n_ng_address.state_nasarawa
+lga_na_keana,Keana,l10n_ng_address.state_nasarawa
+lga_na_keffi,Keffi,l10n_ng_address.state_nasarawa
+lga_na_kokona,Kokona,l10n_ng_address.state_nasarawa
+lga_na_lafia,Lafia,l10n_ng_address.state_nasarawa
+lga_na_nasarawa,Nasarawa,l10n_ng_address.state_nasarawa
+lga_na_nasarawa_eggon,"Nasarawa Eggon",l10n_ng_address.state_nasarawa
+lga_na_obi,Obi,l10n_ng_address.state_nasarawa
+lga_na_toto,Toto,l10n_ng_address.state_nasarawa
+lga_na_wamba,Wamba,l10n_ng_address.state_nasarawa
+lga_ni_agaie,Agaie,l10n_ng_address.state_niger
+lga_ni_agwara,Agwara,l10n_ng_address.state_niger
+lga_ni_bida,Bida,l10n_ng_address.state_niger
+lga_ni_borgu,Borgu,l10n_ng_address.state_niger
+lga_ni_bosso,Bosso,l10n_ng_address.state_niger
+lga_ni_chanchaga,Chanchaga,l10n_ng_address.state_niger
+lga_ni_edati,Edati,l10n_ng_address.state_niger
+lga_ni_gbako,Gbako,l10n_ng_address.state_niger
+lga_ni_gurara,Gurara,l10n_ng_address.state_niger
+lga_ni_katcha,Katcha,l10n_ng_address.state_niger
+lga_ni_kontagora,Kontagora,l10n_ng_address.state_niger
+lga_ni_lapai,Lapai,l10n_ng_address.state_niger
+lga_ni_lavun,Lavun,l10n_ng_address.state_niger
+lga_ni_magama,Magama,l10n_ng_address.state_niger
+lga_ni_mariga,Mariga,l10n_ng_address.state_niger
+lga_ni_mashegu,Mashegu,l10n_ng_address.state_niger
+lga_ni_mokwa,Mokwa,l10n_ng_address.state_niger
+lga_ni_muya,Muya,l10n_ng_address.state_niger
+lga_ni_paikoro,Paikoro,l10n_ng_address.state_niger
+lga_ni_rafi,Rafi,l10n_ng_address.state_niger
+lga_ni_rijau,Rijau,l10n_ng_address.state_niger
+lga_ni_shiroro,Shiroro,l10n_ng_address.state_niger
+lga_ni_suleja,Suleja,l10n_ng_address.state_niger
+lga_ni_tafa,Tafa,l10n_ng_address.state_niger
+lga_ni_wushishi,Wushishi,l10n_ng_address.state_niger
+lga_og_abeokuta_north,"Abeokuta North",l10n_ng_address.state_ogun
+lga_og_abeokuta_south,"Abeokuta South",l10n_ng_address.state_ogun
+lga_og_ado_odo_ota,"Ado-Odo/Ota",l10n_ng_address.state_ogun
+lga_og_egbado_north,"Egbado North",l10n_ng_address.state_ogun
+lga_og_egbado_south,"Egbado South",l10n_ng_address.state_ogun
+lga_og_ewekoro,Ewekoro,l10n_ng_address.state_ogun
+lga_og_ifo,Ifo,l10n_ng_address.state_ogun
+lga_og_ijebu_east,"Ijebu East",l10n_ng_address.state_ogun
+lga_og_ijebu_north,"Ijebu North",l10n_ng_address.state_ogun
+lga_og_ijebu_north_east,"Ijebu North East",l10n_ng_address.state_ogun
+lga_og_ijebu_ode,"Ijebu Ode",l10n_ng_address.state_ogun
+lga_og_ikenne,Ikenne,l10n_ng_address.state_ogun
+lga_og_imeko_afon,"Imeko Afon",l10n_ng_address.state_ogun
+lga_og_ipokia,Ipokia,l10n_ng_address.state_ogun
+lga_og_obafemi_owode,"Obafemi Owode",l10n_ng_address.state_ogun
+lga_og_odeda,Odeda,l10n_ng_address.state_ogun
+lga_og_odogbolu,Odogbolu,l10n_ng_address.state_ogun
+lga_og_remon,Remo North,l10n_ng_address.state_ogun
+lga_og_shagamu,Shagamu,l10n_ng_address.state_ogun
+lga_on_akoko_north_east,"Akoko North-East",l10n_ng_address.state_ondo
+lga_on_akoko_north_west,"Akoko North-West",l10n_ng_address.state_ondo
+lga_on_akoko_south_east,"Akoko South-East",l10n_ng_address.state_ondo
+lga_on_akoko_south_west,"Akoko South-West",l10n_ng_address.state_ondo
+lga_on_akure_north,"Akure North",l10n_ng_address.state_ondo
+lga_on_akure_south,"Akure South",l10n_ng_address.state_ondo
+lga_on_ese_odo,"Ese Odo",l10n_ng_address.state_ondo
+lga_on_idanre,Idanre,l10n_ng_address.state_ondo
+lga_on_ifedore,Ifedore,l10n_ng_address.state_ondo
+lga_on_ilaje,Ilaje,l10n_ng_address.state_ondo
+lga_on_ile_oluji_okeigbo,"Ile Oluji/Okeigbo",l10n_ng_address.state_ondo
+lga_on_irele,Irele,l10n_ng_address.state_ondo
+lga_on_odigbo,Odigbo,l10n_ng_address.state_ondo
+lga_on_okitipupa,Okitipupa,l10n_ng_address.state_ondo
+lga_on_ondo_east,"Ondo East",l10n_ng_address.state_ondo
+lga_on_ondo_west,"Ondo West",l10n_ng_address.state_ondo
+lga_on_ose,Ose,l10n_ng_address.state_ondo
+lga_on_owo,Owo,l10n_ng_address.state_ondo
+lga_os_aiyedade,Aiyedade,l10n_ng_address.state_osun
+lga_os_aiyedire,Aiyedire,l10n_ng_address.state_osun
+lga_os_atakunmosa_east,"Atakunmosa East",l10n_ng_address.state_osun
+lga_os_atakunmosa_west,"Atakunmosa West",l10n_ng_address.state_osun
+lga_os_boluwaduro,Boluwaduro,l10n_ng_address.state_osun
+lga_os_boripe,Boripe,l10n_ng_address.state_osun
+lga_os_ede_north,"Ede North",l10n_ng_address.state_osun
+lga_os_ede_south,"Ede South",l10n_ng_address.state_osun
+lga_os_egbedore,Egbedore,l10n_ng_address.state_osun
+lga_os_ejigbo,Ejigbo,l10n_ng_address.state_osun
+lga_os_ife_central,"Ife Central",l10n_ng_address.state_osun
+lga_os_ife_east,"Ife East",l10n_ng_address.state_osun
+lga_os_ife_north,"Ife North",l10n_ng_address.state_osun
+lga_os_ife_south,"Ife South",l10n_ng_address.state_osun
+lga_os_ifedayo,Ifedayo,l10n_ng_address.state_osun
+lga_os_ifelodun,Ifelodun,l10n_ng_address.state_osun
+lga_os_ila,Ila,l10n_ng_address.state_osun
+lga_os_ile_ogbo,"Ila-Orangun",l10n_ng_address.state_osun
+lga_os_ilesa_east,"Ilesa East",l10n_ng_address.state_osun
+lga_os_ilesa_west,"Ilesa West",l10n_ng_address.state_osun
+lga_os_irepodun,Irepodun,l10n_ng_address.state_osun
+lga_os_irewole,Irewole,l10n_ng_address.state_osun
+lga_os_isokan,Isokan,l10n_ng_address.state_osun
+lga_os_iwo,Iwo,l10n_ng_address.state_osun
+lga_os_obokun,Obokun,l10n_ng_address.state_osun
+lga_os_odo_otin,"Odo Otin",l10n_ng_address.state_osun
+lga_os_ola_oluwa,"Ola Oluwa",l10n_ng_address.state_osun
+lga_os_olorunda,Olorunda,l10n_ng_address.state_osun
+lga_os_oriade,Oriade,l10n_ng_address.state_osun
+lga_os_orolu,Orolu,l10n_ng_address.state_osun
+lga_os_osogbo,Osogbo,l10n_ng_address.state_osun
+lga_oy_afijio,Afijio,l10n_ng_address.state_oyo
+lga_oy_akinyele,Akinyele,l10n_ng_address.state_oyo
+lga_oy_atiba,Atiba,l10n_ng_address.state_oyo
+lga_oy_atigbo,Atisbo,l10n_ng_address.state_oyo
+lga_oy_egbeda,Egbeda,l10n_ng_address.state_oyo
+lga_oy_ibadan_north,"Ibadan North",l10n_ng_address.state_oyo
+lga_oy_ibadan_north_east,"Ibadan North-East",l10n_ng_address.state_oyo
+lga_oy_ibadan_north_west,"Ibadan North-West",l10n_ng_address.state_oyo
+lga_oy_ibadan_south_east,"Ibadan South-East",l10n_ng_address.state_oyo
+lga_oy_ibadan_south_west,"Ibadan South-West",l10n_ng_address.state_oyo
+lga_oy_ibarapa_central,"Ibarapa Central",l10n_ng_address.state_oyo
+lga_oy_ibarapa_east,"Ibarapa East",l10n_ng_address.state_oyo
+lga_oy_ibarapa_north,"Ibarapa North",l10n_ng_address.state_oyo
+lga_oy_ido,Ido,l10n_ng_address.state_oyo
+lga_oy_irepo,Irepo,l10n_ng_address.state_oyo
+lga_oy_iseyin,Iseyin,l10n_ng_address.state_oyo
+lga_oy_itesiwaju,Itesiwaju,l10n_ng_address.state_oyo
+lga_oy_iwajowa,Iwajowa,l10n_ng_address.state_oyo
+lga_oy_kajola,Kajola,l10n_ng_address.state_oyo
+lga_oy_lagelu,Lagelu,l10n_ng_address.state_oyo
+lga_oy_ogbomosho_north,"Ogbomosho North",l10n_ng_address.state_oyo
+lga_oy_ogbomosho_south,"Ogbomosho South",l10n_ng_address.state_oyo
+lga_oy_ogo_oluwa,"Ogo Oluwa",l10n_ng_address.state_oyo
+lga_oy_olorunsogo,Olorunsogo,l10n_ng_address.state_oyo
+lga_oy_oluyole,Oluyole,l10n_ng_address.state_oyo
+lga_oy_ona_ara,"Ona Ara",l10n_ng_address.state_oyo
+lga_oy_orelope,Orelope,l10n_ng_address.state_oyo
+lga_oy_ori_ire,"Ori Ire",l10n_ng_address.state_oyo
+lga_oy_oyo_east,"Oyo East",l10n_ng_address.state_oyo
+lga_oy_oyo_west,"Oyo West",l10n_ng_address.state_oyo
+lga_oy_saki_east,"Saki East",l10n_ng_address.state_oyo
+lga_oy_saki_west,"Saki West",l10n_ng_address.state_oyo
+lga_oy_surulere,Surulere,l10n_ng_address.state_oyo
+lga_pl_barkin_ladi,"Barkin Ladi",l10n_ng_address.state_plateau
+lga_pl_bassa,Bassa,l10n_ng_address.state_plateau
+lga_pl_bokkos,Bokkos,l10n_ng_address.state_plateau
+lga_pl_jos_east,"Jos East",l10n_ng_address.state_plateau
+lga_pl_jos_north,"Jos North",l10n_ng_address.state_plateau
+lga_pl_jos_south,"Jos South",l10n_ng_address.state_plateau
+lga_pl_kanam,Kanam,l10n_ng_address.state_plateau
+lga_pl_kanke,Kanke,l10n_ng_address.state_plateau
+lga_pl_langtang_north,"Langtang North",l10n_ng_address.state_plateau
+lga_pl_langtang_south,"Langtang South",l10n_ng_address.state_plateau
+lga_pl_mangu,Mangu,l10n_ng_address.state_plateau
+lga_pl_mikang,Mikang,l10n_ng_address.state_plateau
+lga_pl_pankshin,Pankshin,l10n_ng_address.state_plateau
+lga_pl_qua'an_pan,"Qua'an Pan",l10n_ng_address.state_plateau
+lga_pl_riyom,Riyom,l10n_ng_address.state_plateau
+lga_pl_shendam,Shendam,l10n_ng_address.state_plateau
+lga_pl_wase,Wase,l10n_ng_address.state_plateau
+lga_ri_abua_odual,"Abua/Odual",l10n_ng_address.state_rivers
+lga_ri_ahoada_east,"Ahoada East",l10n_ng_address.state_rivers
+lga_ri_ahoada_west,"Ahoada West",l10n_ng_address.state_rivers
+lga_ri_akuku_toru,"Akuku-Toru",l10n_ng_address.state_rivers
+lga_ri_andoni,Andoni,l10n_ng_address.state_rivers
+lga_ri_asari_toru,"Asari-Toru",l10n_ng_address.state_rivers
+lga_ri_bonny,Bonny,l10n_ng_address.state_rivers
+lga_ri_degema,Degema,l10n_ng_address.state_rivers
+lga_ri_eleme,Eleme,l10n_ng_address.state_rivers
+lga_ri_emuoha,Emuoha,l10n_ng_address.state_rivers
+lga_ri_etche,Etche,l10n_ng_address.state_rivers
+lga_ri_gokana,Gokana,l10n_ng_address.state_rivers
+lga_ri_ikwerre,Ikwerre,l10n_ng_address.state_rivers
+lga_ri_khana,Khana,l10n_ng_address.state_rivers
+lga_ri_obio_akpor,"Obio/Akpor",l10n_ng_address.state_rivers
+lga_ri_ogba_egbema_ndoni,"Ogba/Egbema/Ndoni",l10n_ng_address.state_rivers
+lga_ri_ogu_bolo,"Ogu/Bolo",l10n_ng_address.state_rivers
+lga_ri_okrika,Okrika,l10n_ng_address.state_rivers
+lga_ri_omuma,Omuma,l10n_ng_address.state_rivers
+lga_ri_opobo_nkoro,"Opobo/Nkoro",l10n_ng_address.state_rivers
+lga_ri_oyigbo,Oyigbo,l10n_ng_address.state_rivers
+lga_ri_port_harcourt,"Port Harcourt",l10n_ng_address.state_rivers
+lga_ri_tai,Tai,l10n_ng_address.state_rivers
+lga_so_binji,Binji,l10n_ng_address.state_sokoto
+lga_so_bodinga,Bodinga,l10n_ng_address.state_sokoto
+lga_so_dange_shuni,"Dange Shuni",l10n_ng_address.state_sokoto
+lga_so_gudu,Gudu,l10n_ng_address.state_sokoto
+lga_so_gwadabawa,Gwadabawa,l10n_ng_address.state_sokoto
+lga_so_goronyo,Goronyo,l10n_ng_address.state_sokoto
+lga_so_illela,Illela,l10n_ng_address.state_sokoto
+lga_so_isa,Isa,l10n_ng_address.state_sokoto
+lga_so_kebbe,Kebbe,l10n_ng_address.state_sokoto
+lga_so_kware,Kware,l10n_ng_address.state_sokoto
+lga_so_rabah,Rabah,l10n_ng_address.state_sokoto
+lga_so_sabon_birni,"Sabon Birni",l10n_ng_address.state_sokoto
+lga_so_shagari,Shagari,l10n_ng_address.state_sokoto
+lga_so_silame,Silame,l10n_ng_address.state_sokoto
+lga_so_sokoto_north,"Sokoto North",l10n_ng_address.state_sokoto
+lga_so_sokoto_south,"Sokoto South",l10n_ng_address.state_sokoto
+lga_so_tambuwal,Tambuwal,l10n_ng_address.state_sokoto
+lga_so_tangaza,Tangaza,l10n_ng_address.state_sokoto
+lga_so_tureta,Tureta,l10n_ng_address.state_sokoto
+lga_so_wamako,Wamako,l10n_ng_address.state_sokoto
+lga_so_wurno,Wurno,l10n_ng_address.state_sokoto
+lga_so_yabo,Yabo,l10n_ng_address.state_sokoto
+lga_ta_ardo_kola,"Ardo Kola",l10n_ng_address.state_taraba
+lga_ta_bali,Bali,l10n_ng_address.state_taraba
+lga_ta_donga,Donga,l10n_ng_address.state_taraba
+lga_ta_gashaka,Gashaka,l10n_ng_address.state_taraba
+lga_ta_gassol,Gassol,l10n_ng_address.state_taraba
+lga_ta_ibi,Ibi,l10n_ng_address.state_taraba
+lga_ta_jalingo,Jalingo,l10n_ng_address.state_taraba
+lga_ta_karim_lamido,"Karim Lamido",l10n_ng_address.state_taraba
+lga_ta_kurmi,Kurmi,l10n_ng_address.state_taraba
+lga_ta_lau,Lau,l10n_ng_address.state_taraba
+lga_ta_sardauna,Sardauna,l10n_ng_address.state_taraba
+lga_ta_takum,Takum,l10n_ng_address.state_taraba
+lga_ta_ussa,Ussa,l10n_ng_address.state_taraba
+lga_ta_wukari,Wukari,l10n_ng_address.state_taraba
+lga_ta_yoro,Yorro,l10n_ng_address.state_taraba
+lga_ta_zing,Zing,l10n_ng_address.state_taraba
+lga_yo_bade,Bade,l10n_ng_address.state_yobe
+lga_yo_bursari,Bursari,l10n_ng_address.state_yobe
+lga_yo_damaturu,Damaturu,l10n_ng_address.state_yobe
+lga_yo_fika,Fika,l10n_ng_address.state_yobe
+lga_yo_fune,Fune,l10n_ng_address.state_yobe
+lga_yo_geidam,Geidam,l10n_ng_address.state_yobe
+lga_yo_gujba,Gujba,l10n_ng_address.state_yobe
+lga_yo_gulani,Gulani,l10n_ng_address.state_yobe
+lga_yo_jakusko,Jakusko,l10n_ng_address.state_yobe
+lga_yo_karasuwa,Karasuwa,l10n_ng_address.state_yobe
+lga_yo_machina,Machina,l10n_ng_address.state_yobe
+lga_yo_nangere,Nangere,l10n_ng_address.state_yobe
+lga_yo_nguru,Nguru,l10n_ng_address.state_yobe
+lga_yo_potiskum,Potiskum,l10n_ng_address.state_yobe
+lga_yo_tarmuwa,Tarmuwa,l10n_ng_address.state_yobe
+lga_yo_yunusari,Yunusari,l10n_ng_address.state_yobe
+lga_yo_yusufari,Yusufari,l10n_ng_address.state_yobe
+lga_za_anka,Anka,l10n_ng_address.state_zamfara
+lga_za_bakura,Bakura,l10n_ng_address.state_zamfara
+lga_za_birnin_magaji,"Birnin Magaji/Kiyaw",l10n_ng_address.state_zamfara
+lga_za_bukkuyum,Bukkuyum,l10n_ng_address.state_zamfara
+lga_za_bungudu,Bungudu,l10n_ng_address.state_zamfara
+lga_za_gummi,Gummi,l10n_ng_address.state_zamfara
+lga_za_gusau,Gusau,l10n_ng_address.state_zamfara
+lga_za_kaura_namoda,"Kaura Namoda",l10n_ng_address.state_zamfara
+lga_za_maradun,Maradun,l10n_ng_address.state_zamfara
+lga_za_maru,Maru,l10n_ng_address.state_zamfara
+lga_za_shinkafi,Shinkafi,l10n_ng_address.state_zamfara
+lga_za_talata_mafara,"Talata Mafara",l10n_ng_address.state_zamfara
+lga_za_tsafe,"Tsafe",l10n_ng_address.state_zamfara
+lga_za_zurmi,Zurmi,l10n_ng_address.state_zamfara
