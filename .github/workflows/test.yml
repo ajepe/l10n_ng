@@ -45,7 +45,7 @@ jobs:
           docker run --rm \
             --name odoo-test \
             --network host \
-            -v ${{ github.workspace }}:/mnt/extra-addons 
+            -v ${{ github.workspace }}:/mnt/extra-addons\
             odoo:18.0 \
             odoo \
               --db_host=127.0.0.1 \
