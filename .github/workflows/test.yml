@@ -1,8 +1,0 @@
-name: Odoo Test
-"on":
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main

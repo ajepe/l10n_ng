@@ -3,7 +3,7 @@
     "version": "18.0.1.0.0",
     "category": "Localization",
     "summary": "Integrate the Nigerian addressing system (States and LGAs) into Odoo.",
-    "author": "Gemini",
+    "author": "Babatope Ajepe",
     "website": "https://www.google.com",
     "depends": ["base", "contacts"],
     "data": [
