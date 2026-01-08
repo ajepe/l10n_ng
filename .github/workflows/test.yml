@@ -1,0 +1,61 @@
+name: Tests
+
+on:
+  push:
+    branches: ["18.0"]
+  pull_request:
+
+jobs:
+  test-odoo:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_DB: odoo
+          POSTGRES_USER: odoo
+          POSTGRES_PASSWORD: odoo
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    env:
+      DB_HOST: 127.0.0.1
+      DB_PORT: 5432
+      DB_USER: odoo
+      DB_PASSWORD: odoo
+      ODOO_VERSION: "18.0"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run Odoo tests
+        run: |
+          docker run --rm \
+            --name odoo-test \
+            --network host \
+            -v ${{ github.workspace }}:/mnt/extra-addons 
+            odoo:18.0 \
+            odoo \
+              --db_host=127.0.0.1 \
+              --db_port=5432 \
+              --db_user=odoo \
+              --db_password=odoo \
+              --addons-path=/usr/lib/python3/dist-packages/odoo/addons,/mnt/extra-addons \
+              --init=all \
+              --test-enable \
+              --stop-after-init \
+              --log-level=test \
+              --without-demo=all
+
