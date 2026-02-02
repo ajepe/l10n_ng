@@ -6,8 +6,32 @@ on:
   pull_request:
 
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install flake8 black
+
+      - name: Run flake8
+        run: |
+          flake8 l10n_ng_address/
+
+      - name: Run black
+        run: |
+          black --check l10n_ng_address/
+
   test-odoo:
     runs-on: ubuntu-latest
+    needs: lint
 
     services:
       postgres:
@@ -40,20 +64,24 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Wait for PostgreSQL
+        run: |
+          timeout 60 bash -c 'until pg_isready -h $DB_HOST -p $DB_PORT -U $DB_USER; do sleep 1; done'
+
       - name: Run Odoo tests
         run: |
           docker run --rm \
             --name odoo-test \
             --network host \
-            -v ${{ github.workspace }}:/mnt/extra-addons\
+            -v ${{ github.workspace }}:/mnt/extra-addons \
             odoo:18.0 \
             odoo \
-              --db_host=127.0.0.1 \
-              --db_port=5432 \
-              --db_user=odoo \
-              --db_password=odoo \
+              --db_host=$DB_HOST \
+              --db_port=$DB_PORT \
+              --db_user=$DB_USER \
+              --db_password=$DB_PASSWORD \
               --addons-path=/usr/lib/python3/dist-packages/odoo/addons,/mnt/extra-addons \
-              --init=all \
+              --init=l10n_ng_address \
               --test-enable \
               --stop-after-init \
               --log-level=test \
