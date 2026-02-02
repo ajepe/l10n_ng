@@ -68,7 +68,18 @@ jobs:
         run: |
           timeout 60 bash -c 'until pg_isready -h $DB_HOST -p $DB_PORT -U $DB_USER; do sleep 1; done'
 
-      - name: Run Odoo tests
+      - name: Discover available modules
+        id: modules
+        run: |
+          MODULES=$(find . -maxdepth 2 -name "__manifest__.py" -exec dirname {} \; | sed 's|^\./||' | tr '\n' ',' | sed 's/,$//')
+          echo "modules=$MODULES" >> $GITHUB_OUTPUT
+          echo "Found modules: $MODULES"
+
+      - name: Install coverage dependencies
+        run: |
+          pip install coverage
+
+      - name: Run Odoo tests with coverage
         run: |
           docker run --rm \
             --name odoo-test \
@@ -81,9 +92,26 @@ jobs:
               --db_user=$DB_USER \
               --db_password=$DB_PASSWORD \
               --addons-path=/usr/lib/python3/dist-packages/odoo/addons,/mnt/extra-addons \
-              --init=l10n_ng_address \
+              --init=${{ steps.modules.outputs.modules }} \
               --test-enable \
+              --test-tags=Python \
               --stop-after-init \
               --log-level=test \
-              --without-demo=all
+              --without-demo=all \
+              --coverage \
+              --coverage-dir=/mnt/extra-addons/.coverage
+
+      - name: Generate coverage report
+        run: |
+          python -m coverage combine .coverage/.coverage.*
+          python -m coverage xml -o coverage.xml
+          python -m coverage report
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          file: ./coverage.xml
+          flags: unittests
+          name: codecov-umbrella
+          fail_ci_if_error: false
 
