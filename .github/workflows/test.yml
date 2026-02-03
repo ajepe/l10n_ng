@@ -9,9 +9,8 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
+      - uses: actions/checkout@v4
+      
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -19,15 +18,16 @@ jobs:
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install flake8 black
 
       - name: Run flake8
         run: |
-          flake8 l10n_ng_address/
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
 
       - name: Run black
         run: |
-          black --check l10n_ng_address/
+          black --check --diff .
 
   test-odoo:
     runs-on: ubuntu-latest
