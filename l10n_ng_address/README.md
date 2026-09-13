@@ -65,16 +65,6 @@ Internal, portal and public users can read LGAs, because the address format
 uses them. There is no menu to manage LGAs; the provided list normally does
 not need to be edited.
 
-## Upgrading
-
-Two data migrations are included:
-
-- `18.0.1.0.1` moves partners from the duplicate `Ila-Orangun` LGA to
-  `Ila` and deletes the duplicate.
-- `18.0.1.0.2` rewrites the address format on databases where an earlier
-  release had stored an invalid one. A format customized by the user is
-  left untouched.
-
 ## Tests
 
     odoo-bin -d <database> -i l10n_ng_address --test-enable --stop-after-init
