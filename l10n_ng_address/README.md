@@ -5,8 +5,6 @@
 
 This module integrates the Nigerian addressing system into Odoo 18.0. It addresses the gaps in the default Odoo installation by providing a structured way to handle Nigerian addresses, including States and Local Government Areas (LGAs).
 
-This module was created by Gemini.
-
 ## Features
 
 *   **LGA Model:** Adds a new model (`res.country.lga`) to store the list of all 774 Nigerian Local Government Areas.

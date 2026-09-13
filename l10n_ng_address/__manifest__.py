@@ -4,7 +4,8 @@
     "category": "Localization",
     "summary": "Integrate the Nigerian addressing system (States and LGAs) into Odoo.",
     "author": "Babatope Ajepe",
-    "website": "https://www.google.com",
+    "website": "https://github.com/ajepe/l10n_ng",
+    "countries": ["ng"],
     "depends": ["base", "contacts"],
     "data": [
         "security/ir.model.access.csv",
@@ -14,6 +15,5 @@
         "views/res_partner_views.xml",
     ],
     "installable": True,
-    "application": True,
     "license": "LGPL-3",
 }
