@@ -1,7 +1,7 @@
 
 # -*- coding: utf-8 -*-
 
-from odoo.tests.common import TransactionCase
+from odoo.tests.common import Form, TransactionCase
 
 
 class TestNigerianAddress(TransactionCase):
@@ -32,6 +32,10 @@ class TestNigerianAddress(TransactionCase):
         abuja_municipal_lga = self.Lga.search([("name", "=", "Abuja Municipal Area Council"), ("state_id", "=", abuja_state.id)])
         self.assertTrue(abuja_municipal_lga, "Abuja Municipal Area Council LGA not found.")
 
+        # The dataset must contain the 774 official LGAs
+        lga_count = self.Lga.search_count([("state_id.country_id", "=", self.nigeria.id)])
+        self.assertEqual(lga_count, 774, "Expected 774 LGAs, found %s." % lga_count)
+
     def test_02_onchange_state_id(self):
         """Test the onchange method for the state_id field."""
         lagos_state = self.State.search([("code", "=", "LA"), ("country_id", "=", self.nigeria.id)])
@@ -44,12 +48,11 @@ class TestNigerianAddress(TransactionCase):
             "lga_id": ikeja_lga.id,
         })
 
-        # Change the state and check if the LGA is cleared
+        # Change the state through a form and check if the LGA is cleared
         rivers_state = self.State.search([("code", "=", "RI"), ("country_id", "=", self.nigeria.id)])
-        partner.state_id = rivers_state
-        partner._onchange_state_id()
-
-        self.assertFalse(partner.lga_id, "LGA should be cleared when the state is changed.")
+        with Form(partner) as partner_form:
+            partner_form.state_id = rivers_state
+            self.assertFalse(partner_form.lga_id, "LGA should be cleared when the state is changed.")
 
     def test_03_address_format(self):
         """Test that the address format for Nigeria includes the LGA."""
@@ -66,4 +69,8 @@ class TestNigerianAddress(TransactionCase):
         })
 
         address = partner._display_address(without_company=True)
-        self.assertIn("Ikeja LGA", address, "Address format should include the LGA.")
+        self.assertEqual(
+            address,
+            "123 Main Street\n\nIkeja\nIkeja\nLagos\n\nNigeria",
+            "Unexpected Nigerian address format: %r" % address,
+        )
