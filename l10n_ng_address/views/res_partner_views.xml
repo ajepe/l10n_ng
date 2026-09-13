@@ -7,7 +7,7 @@
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//div[hasclass('o_address_format')]/field[@name='state_id']" position="after">
-                    <field name="lga_id" placeholder="LGA"/>
+                    <field name="lga_id" placeholder="LGA" options="{'no_create': True}"/>
                 </xpath>
             </field>
         </record>
@@ -18,7 +18,7 @@
             <field name="inherit_id" ref="base.view_partner_address_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//div[hasclass('o_address_format')]/field[@name='state_id']" position="after">
-                    <field name="lga_id" placeholder="LGA"/>
+                    <field name="lga_id" placeholder="LGA" options="{'no_create': True}"/>
                 </xpath>
             </field>
         </record>
