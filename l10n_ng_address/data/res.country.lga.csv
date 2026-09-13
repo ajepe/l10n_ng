@@ -579,6 +579,7 @@ lga_og_ipokia,Ipokia,l10n_ng_address.state_ogun
 lga_og_obafemi_owode,"Obafemi Owode",l10n_ng_address.state_ogun
 lga_og_odeda,Odeda,l10n_ng_address.state_ogun
 lga_og_odogbolu,Odogbolu,l10n_ng_address.state_ogun
+lga_og_ogun_waterside,Ogun Waterside,l10n_ng_address.state_ogun
 lga_og_remon,Remo North,l10n_ng_address.state_ogun
 lga_og_shagamu,Shagamu,l10n_ng_address.state_ogun
 lga_on_akoko_north_east,"Akoko North-East",l10n_ng_address.state_ondo
@@ -599,7 +600,7 @@ lga_on_ondo_east,"Ondo East",l10n_ng_address.state_ondo
 lga_on_ondo_west,"Ondo West",l10n_ng_address.state_ondo
 lga_on_ose,Ose,l10n_ng_address.state_ondo
 lga_on_owo,Owo,l10n_ng_address.state_ondo
-lga_os_aiyedade,Aiyedade,l10n_ng_address.state_osun
+lga_os_aiyedade,Aiyedaade,l10n_ng_address.state_osun
 lga_os_aiyedire,Aiyedire,l10n_ng_address.state_osun
 lga_os_atakunmosa_east,"Atakunmosa East",l10n_ng_address.state_osun
 lga_os_atakunmosa_west,"Atakunmosa West",l10n_ng_address.state_osun
@@ -616,7 +617,6 @@ lga_os_ife_south,"Ife South",l10n_ng_address.state_osun
 lga_os_ifedayo,Ifedayo,l10n_ng_address.state_osun
 lga_os_ifelodun,Ifelodun,l10n_ng_address.state_osun
 lga_os_ila,Ila,l10n_ng_address.state_osun
-lga_os_ile_ogbo,"Ila-Orangun",l10n_ng_address.state_osun
 lga_os_ilesa_east,"Ilesa East",l10n_ng_address.state_osun
 lga_os_ilesa_west,"Ilesa West",l10n_ng_address.state_osun
 lga_os_irepodun,Irepodun,l10n_ng_address.state_osun
@@ -706,6 +706,7 @@ lga_ri_tai,Tai,l10n_ng_address.state_rivers
 lga_so_binji,Binji,l10n_ng_address.state_sokoto
 lga_so_bodinga,Bodinga,l10n_ng_address.state_sokoto
 lga_so_dange_shuni,"Dange Shuni",l10n_ng_address.state_sokoto
+lga_so_gada,Gada,l10n_ng_address.state_sokoto
 lga_so_gudu,Gudu,l10n_ng_address.state_sokoto
 lga_so_gwadabawa,Gwadabawa,l10n_ng_address.state_sokoto
 lga_so_goronyo,Goronyo,l10n_ng_address.state_sokoto

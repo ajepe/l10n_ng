@@ -1,6 +1,6 @@
 {
     "name": "Nigerian Address Integration",
-    "version": "18.0.1.0.0",
+    "version": "18.0.1.0.1",
     "category": "Localization",
     "summary": "Integrate the Nigerian addressing system (States and LGAs) into Odoo.",
     "author": "Babatope Ajepe",
