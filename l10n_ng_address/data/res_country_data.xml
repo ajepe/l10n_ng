@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="base.ng" model="res.country">
+        <field name="address_format" eval="'%(street)s\n%(street2)s\n%(city)s\n%(lga_name)s\n%(state_name)s\n%(zip)s\n%(country_name)s'"/>
+    </record>
+</odoo>
