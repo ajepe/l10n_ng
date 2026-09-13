@@ -1,34 +1,86 @@
-
 # Nigerian Address Integration
 
-## Overview
+Adds Nigeria's states and Local Government Areas (LGAs) to contacts and
+includes the LGA in Nigerian addresses printed on documents.
 
-This module integrates the Nigerian addressing system into Odoo 18.0. It addresses the gaps in the default Odoo installation by providing a structured way to handle Nigerian addresses, including States and Local Government Areas (LGAs).
+This module only handles addresses. Odoo's accounting localization for
+Nigeria is a separate module (`l10n_ng`).
 
-## Features
-
-*   **LGA Model:** Adds a new model (`res.country.lga`) to store the list of all 774 Nigerian Local Government Areas.
-*   **Partner Form Update:** Adds a new "LGA" field to the contact form, which is dynamically filtered based on the selected state.
-*   **Comprehensive Data:** Includes a complete and up-to-date list of all 36 Nigerian states (plus the FCT) and their corresponding 774 LGAs.
-*   **Address Formatting:** Updates the address format for Nigeria to include the LGA, ensuring it appears on all documents, such as invoices and delivery orders.
+- Odoo version: 18.0
+- Dependencies: `base`, `contacts`
+- License: LGPL-3
 
 ## Installation
 
-To install this module, you need to:
+1. Put the `l10n_ng_address` directory in one of the addons paths of your
+   Odoo installation.
+2. Restart the Odoo service.
+3. In the Apps menu, clear the "Apps" filter, search for "Nigerian Address
+   Integration" and click Install.
 
-1.  **Copy the `l10n_ng_address` directory** to the `addons` folder of your Odoo 18.0 installation.
-2.  **Restart the Odoo server.**
-3.  **Go to the "Apps" menu** in Odoo, remove the "Apps" filter, and search for "Nigerian Address Integration".
-4.  **Click "Install"** to install the module.
+## How it works
 
-## Usage
+### LGA data
 
-Once the module is installed, you can use the new addressing system as follows:
+The module provides the 36 states, the Federal Capital Territory and the
+774 LGAs. States are defined in `data/res_country_state_data.xml` and LGAs
+in `data/res.country.lga.csv`.
 
-1.  Go to the **Contacts** module and open or create a new contact.
-2.  When you select **Nigeria** as the country, you will see the **State** and **LGA** fields.
-3.  Select a **State** from the dropdown list.
-4.  The **LGA** field will then be automatically filtered to show only the LGAs belonging to the selected state.
-5.  When you save the address, the LGA will be included in the formatted address.
+LGAs are stored in a new model, `res.country.lga`, with two fields: `name`
+and `state_id` (required). A name can only appear once per state, and
+records are shown as `Ikeja (Lagos)` in the dropdowns.
 
-This module provides a seamless and user-friendly way to handle Nigerian addresses in Odoo.
+State records are loaded as "no update" data, so renaming a state in the
+database is not undone by a module upgrade. LGA records are loaded from the
+CSV file and refreshed on every upgrade, which means edits to the LGAs that
+come from the file are lost. Custom entries should be added as new records.
+
+### Contacts
+
+The module adds an `lga_id` field to partners and displays it below the
+State field on the contact form and in the address popup. The list only
+shows LGAs of the selected state, and the LGA is cleared when the state
+changes. Creating an LGA from the field is disabled, since the list is
+reference data.
+
+### Address format
+
+The Nigerian address format is set to:
+
+    street
+    street2
+    city
+    LGA
+    state
+    postal code
+    country
+
+The format reads the related `lga_name` field of the partner, so no extra
+input is needed. The LGA therefore appears on every document that prints a
+partner address, such as invoices, delivery orders and portal pages.
+
+## Permissions
+
+Internal, portal and public users can read LGAs, because the address format
+uses them. There is no menu to manage LGAs; the provided list normally does
+not need to be edited.
+
+## Upgrading
+
+Two data migrations are included:
+
+- `18.0.1.0.1` moves partners from the duplicate `Ila-Orangun` LGA to
+  `Ila` and deletes the duplicate.
+- `18.0.1.0.2` rewrites the address format on databases where an earlier
+  release had stored an invalid one. A format customized by the user is
+  left untouched.
+
+## Tests
+
+    odoo-bin -d <database> -i l10n_ng_address --test-enable --stop-after-init
+
+## Uninstall
+
+Uninstalling deletes the states and LGAs that come with the module and
+removes the LGA field from contacts. The Nigerian address format stays in
+the database and is not reverted automatically.
