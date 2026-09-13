@@ -7,9 +7,9 @@
                 %(street2)s
                 %(lga_name)s,
                 %(city)s
-                %(state_id)s
+                %(state_name)s
                 %(zip)s
-                %(country_id)s
+                %(country_name)s
             </field>
         </record>
 
