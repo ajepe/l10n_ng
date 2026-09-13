@@ -43,6 +43,9 @@ shows LGAs of the selected state, and the LGA is cleared when the state
 changes. Creating an LGA from the field is disabled, since the list is
 reference data.
 
+On the eCommerce checkout, the LGA field is provided by the companion
+module `l10n_ng_address_website_sale`.
+
 ### Address format
 
 The Nigerian address format is set to:

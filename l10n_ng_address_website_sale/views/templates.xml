@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="address_lga" inherit_id="website_sale.address">
+        <xpath expr="//div[@id='div_state']" position="after">
+            <div id="div_lga" class="col-lg-6 mb-2"
+                 t-att-style="(not lgas) and 'display:none;'">
+                <label class="col-form-label label-optional" for="o_lga_id">Local Government Area</label>
+                <select id="o_lga_id" name="lga_id" class="form-select">
+                    <option value="">Local Government Area...</option>
+                    <t t-foreach="lgas" t-as="lga">
+                        <option t-att-value="lga.id" t-att-selected="lga.id == lga_id">
+                            <t t-esc="lga.name"/>
+                        </option>
+                    </t>
+                </select>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>
